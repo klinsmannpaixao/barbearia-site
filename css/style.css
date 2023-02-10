@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Referente á Base -----------------INICIO---------------------- Menu */
+.logo-menu img{
+    border-radius: 50%;
+    border: 0.9px solid white;
+}
+
+.menu a{
+    color: white;
+}
+/* Referente á Base -------------------FIM---------------------- Menu */
+
+
+
+/* Referente á Base ------------------INICIO---------------- Conteúdo */
+body{
+    background-color: rgb(235, 239, 242);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Referente á Base --------------------FIM----------------- Conteúdo */
+
+
+
+/* Referente á Base -------------------INICIO----------------- Rodapé */
+.rodape{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    color: white;
+}
+
+.rodape h1{
+    font-size: 16px;
+    margin: 25px 25px 0px 25px;
+    font-weight: 350;
+}
+
+.rodape p{
+    font-size: 13px;
+    margin: 0px 25px 25px 25px;
+    font-weight: 100;
+}
+/* Referente á Base --------------------FIM----------------- Rodapé */
+
+
+
+/* Referente á Página -------------INICIO--------- NOVIDADES */
+
+/*SESSÇÃO AMBIENTE*/
+.sessao1-base-ambiente{
+    background-color: rgb(130, 121, 121);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sessao1-ambiente{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1030px;
+    margin: 0 auto;
+}
+
+.sessao1-conteudo{
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    max-width: 700px;
+    color: white;
+}
+
+.ambiente-img{
+    margin: auto;
+}
+
+.sessao1-ambiente img{
+    max-width: 300px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+/*SESSÇÃO EQUIPAMENTOS*/
+
+.sessao2-base-equipamento{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sessao2-equipamento{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1030px;
+    margin: 0 auto;
+}
+
+.sessao2-conteudo{
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    max-width: 700px;
+}
+
+.equipamento-img{
+    margin: auto;
+}
+
+.sessao2-equipamento img{
+    max-width: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+/*SESSÇÃO QUALIDADE*/
+
+.sessao3-base-qualidade{
+    background-color: rgb(130, 121, 121);
+    padding-top: 190px;
+    padding-bottom: 190px;
+}
+
+.sessao3-qualidade{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.sessao3-conteudo{
+    padding: 30px;
+    max-width: 700px;
+    color: white;
+}
+
+.qualidade-img{
+    margin: auto;
+}
+
+.sessao3-qualidade img{
+    max-width: 350px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+/* Referente á Página ---------------FIM--------- Produtos e Serviços */
+
+
+
+/* Referente á Página -------------INICIO--------- Produtos e Serviços */
+
+/*SESSÇÃO CORTES*/
+
+.titulo-cortes{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3%;
+    margin-bottom: -6%;
+}
+
+.base-card-cortes, .cortes{
+    padding: 8%;
+    padding-bottom: 20%;
+    margin: 0 auto;
+}
+
+.cortes{
+    padding: 10px;
+}
+
+/*SESSÇÃO PRODUTOS*/
+
+.base-produtos{
+    margin-top: -15%;
+    margin-bottom: -15%;
+}
+
+.titulo-produtos{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -5%;
+}
+
+.base-card-produtos, .produtos{
+    padding: 8%;
+    padding-bottom: 20%;
+    margin: 0 auto;
+}
+
+.produtos{
+    padding: 10px;
+}
+
+.base-card-produtos img{
+    border: 1px solid black;
+}
+/* Referente á Página ---------------FIM--------- Produtos e Serviços */
+
+
+
+/* Referente á Página --------------INICIO-------------- Fale Conosco */
+.base-fale-conosco-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.base-fale-conosco{
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 700px;
+    max-height: 1000px;
+
+}
+
+.titulo-fale-conosco{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.titulo-fale-conosco p{
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.button-fale-conosco{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.informativo-fale-conosco h5{
+    color: brown;
+}
+
+.informativo-fale-conosco{
+    margin-top: 10px;
+    margin-bottom: 110px;
+    text-align: center;
+}
+/* Referente á Página ---------------FIM-------------- Fale Conosco */
+
+
+
+/* Referente á Página ---------------INICIO--------------------------- Quem Sou */
+.base-quem-sou{
+    margin-top: -29px;
+}
+
+/*SESSAO 1 (QUEM SOU)------------------INICIO------------------------*/
+.conteiner-quem-sou{
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+    height: 850px;
+    background-color: rgb(130, 121, 121);
+    color: white;
+    font-size: 18px;
+}
+
+.imagem-quem-sou, .quem-sou-img{
+    border-radius: 50%;
+    width: 20vh;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.sobre-quem-sou{
+    max-width: 600px;
+    min-width: auto;
+    margin: 0 auto;
+}
+
+.sobre-quem-sou h1{
+    margin-left: 20px;
+    width: 61px;
+    padding: 20px 0px 0px 0px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.sobre-quem-sou p{
+    max-width: 600px;
+    min-width: auto;
+    padding: 25px;
+}
+/*SESSAO 1 (QUEM SOU)------------------FIM---------------------------*/
+
+/*SESSAO 2 (QUEM SOU)------------------INICIO------------------------*/
+
+
+
+/*SESSAO 2 (QUEM SOU)------------------FIM---------------------------*/
+
+/* Referente á Página ---------------FIM---------------------- Quem Sou */
