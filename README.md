@@ -1,1 +1,3 @@
-# barbearia-site
+# PROJETO
+
+Site de uma Barbearia responsivo. 
